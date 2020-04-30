@@ -1,6 +1,6 @@
 from PIL import Image, ImageDraw
 name=''
-img = Image.new("RGB", (300, 1650))
+img = Image.new("RGB", (300, 1320))
 img1 = ImageDraw.Draw(img)  
 pos=(0,0)
 def printTable(table,iteration):

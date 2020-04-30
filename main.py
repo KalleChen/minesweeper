@@ -8,6 +8,7 @@ from tests import  update_total
 from prints import update_name,show_image
 from mrv_forward import mrv_forward
 from degree_forward import degree_forward
+from all_BTS import all_BTS
 import time
 def main():
     x=input().split()
@@ -67,7 +68,13 @@ def main():
     # timeEnd=time.time()
     # print(timeEnd-timeStart)
     # print()
-    show_image()
+    # update_name("all BTS")
+    # timeStart=time.time()
+    # all_BTS(table,variables,hints)
+    # timeEnd=time.time()
+    # print(timeEnd-timeStart)
+    # print()
+    # show_image()
 
 
 if __name__ == "__main__":
